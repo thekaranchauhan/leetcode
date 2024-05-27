@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func romanToInt(s string) int {
 	// Initialize result to store the final integer value.
 	result := 0
@@ -52,11 +48,4 @@ func getValue(ch byte) int {
 	default:
 		return 0
 	}
-}
-
-func main() {
-	// Test cases
-	fmt.Println(romanToInt("III"))     // Output: 3
-	fmt.Println(romanToInt("LVIII"))   // Output: 58
-	fmt.Println(romanToInt("MCMXCIV")) // Output: 1994
 }
