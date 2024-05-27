@@ -49,3 +49,5 @@ func isCommonPrefix(strs []string, length int) bool {
 	// If all strings match the prefix, return true
 	return true
 }
+
+// ! This solution is optimal with a time complexity of O(n), where n is the length of the string, because each character is processed once. The space complexity is O(n) in the worst case, where all characters are opening brackets.
