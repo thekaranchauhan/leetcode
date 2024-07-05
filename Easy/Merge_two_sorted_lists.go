@@ -1,10 +1,10 @@
 package main
 
 // ListNode defines a singly-linked list node.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+// type ListNode struct {
+// 	Val  int
+// 	Next *ListNode
+// }
 
 // mergeTwoLists merges two sorted linked lists and returns the head of the merged list.
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
